@@ -8,3 +8,14 @@ let myObject = {
     boolean: true
 };
 console.log(myObject)
+
+function greetingz(stR){
+    return 'Hi ' + stR;
+}
+
+for (let i = 0; i < animalList.length; i++) {
+
+    let result = greetingz(animalList[i]);
+    console.log(result);
+
+}
